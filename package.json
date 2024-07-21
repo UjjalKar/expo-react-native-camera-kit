@@ -3,11 +3,11 @@
   "version": "0.2.0",
   "main": "build/main.js",
   "author": {
-    "name": "Petto Martino (@pettomartino)"
+    "name": "Ujjal Kar, Original Author Petto Martino (@pettomartino)"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/avantstay/expo-react-native-camera-kit"
+    "url": "https://github.com/UjjalKar/expo-react-native-camera-kit"
   },
   "scripts": {
     "build": "esbuild src/main.ts --bundle --platform=node --target=node16 --packages=external --outfile=build/main.js",
