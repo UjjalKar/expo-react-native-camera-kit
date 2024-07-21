@@ -6,7 +6,7 @@ const addKotlinAndroidExtensionsGradlePlugin = (appBuildGradle: string) => {
   return mergeContents({
     tag: `react-native-camera-kit`,
     src: appBuildGradle,
-    newSrc: `apply plugin: "kotlin-android"\napply plugin: "kotlin-android-extensions"`,
+    newSrc: `apply plugin: "kotlin-android"`,
     anchor: /^$/,
     offset: 1,
     comment: "//",
